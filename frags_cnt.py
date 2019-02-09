@@ -13,9 +13,9 @@
 #
 
 import csv
-import numpy as np
+import sys
 
-filename = input('Enter the filename: ')
+filename = sys.args[1]
 
 with open(filename,'r') as csv_file:
      mylist = []
